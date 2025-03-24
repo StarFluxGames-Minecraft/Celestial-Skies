@@ -1,6 +1,7 @@
 package com.starfluxgames.celestialskies;
 
 import com.starfluxgames.celestialskies.items.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import net.neoforged.api.distmarker.Dist;
@@ -39,6 +40,10 @@ public class CelestialSkies
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.REFINED_MYSTICITE);
+            event.accept(ModItems.RAW_MYSTICITE);
+        }
     }
 
     @SubscribeEvent
