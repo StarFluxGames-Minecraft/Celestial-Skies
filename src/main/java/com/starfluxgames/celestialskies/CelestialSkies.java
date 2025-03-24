@@ -1,5 +1,6 @@
 package com.starfluxgames.celestialskies;
 
+import com.starfluxgames.celestialskies.blocks.ModBlocks;
 import com.starfluxgames.celestialskies.items.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -29,6 +30,7 @@ public class CelestialSkies
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
     }
