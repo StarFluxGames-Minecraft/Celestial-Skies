@@ -45,6 +45,12 @@ public class CelestialSkies
             event.accept(ModItems.REFINED_MYSTICITE);
             event.accept(ModItems.RAW_MYSTICITE);
         }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.MYSTICITE_ORE);
+            event.accept(ModBlocks.DEEPSLATE_MYSTICITE_ORE);
+            event.accept(ModBlocks.RAW_MYSTICITE_BLOCK);
+        }
     }
 
     @SubscribeEvent
