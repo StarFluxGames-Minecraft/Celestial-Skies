@@ -1,5 +1,6 @@
 package com.starfluxgames.celestialskies;
 
+import com.starfluxgames.celestialskies.items.ModItems;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import net.neoforged.api.distmarker.Dist;
@@ -26,6 +27,8 @@ public class CelestialSkies
         modEventBus.addListener(this::commonSetup);
 
         NeoForge.EVENT_BUS.register(this);
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
     }
