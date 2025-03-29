@@ -4,5 +4,7 @@
 
   "block.celestialskies.mysticite_ore": "Mysticite Ore",
   "block.celestialskies.deepslate_mysticite_ore": "Deepslate Mysticite Ore",
-  "block.celestialskies.raw_mysticite_block": "Block of Raw Mysticite"
+  "block.celestialskies.raw_mysticite_block": "Block of Raw Mysticite",
+
+  "creativetab.celestialskies.celestialskies_tab": "Celestial Skies"
 }
