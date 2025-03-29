@@ -25,6 +25,7 @@ public class ModCreativeTabs {
                         output.accept(ModItems.REFINED_MYSTICITE);
                         output.accept(ModBlocks.RAW_MYSTICITE_BLOCK);
                         output.accept(ModBlocks.MYSTICITE_ORE);
+                        output.accept(ModBlocks.MYSTICITE_BLOCK);
                         output.accept(ModBlocks.DEEPSLATE_MYSTICITE_ORE);
                     }).build());
 

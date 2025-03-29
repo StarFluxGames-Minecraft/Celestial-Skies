@@ -21,6 +21,7 @@ public class ModBlocks {
     public static final DeferredBlock<Block> MYSTICITE_ORE = registerBlock("mysticite_ore", () -> new DropExperienceBlock(UniformInt.of(2, 4), BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE).lightLevel(value -> 5)));
     public static final DeferredBlock<Block> DEEPSLATE_MYSTICITE_ORE = registerBlock("deepslate_mysticite_ore", () -> new DropExperienceBlock(UniformInt.of(2, 4), BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops().sound(SoundType.STONE).lightLevel(value -> 5)));
     public static final DeferredBlock<Block> RAW_MYSTICITE_BLOCK = registerBlock("raw_mysticite_block", () -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> MYSTICITE_BLOCK = registerBlock("mysticite_block", () -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
