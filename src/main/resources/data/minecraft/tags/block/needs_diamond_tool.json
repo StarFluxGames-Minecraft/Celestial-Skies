@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "celestialskies:raw_mysticite_block",
+    "celestialskies:mysticite_ore",
+    "celestialskies:deepslate_mysticite_ore"
+  ]
+}

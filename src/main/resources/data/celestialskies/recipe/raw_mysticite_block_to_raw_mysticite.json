@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "celestialskies:raw_mysticite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "celestialskies:raw_mysticite"
+  }
+}
